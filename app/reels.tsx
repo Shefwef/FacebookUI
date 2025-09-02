@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
 
 export default function Reels() {
   return (
@@ -13,17 +13,17 @@ export default function Reels() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#18191A',
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: "#18191A",
+    justifyContent: "center",
+    alignItems: "center",
   },
   text: {
-    color: '#fff',
+    color: "#fff",
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
   subText: {
-    color: '#aaa',
+    color: "#aaa",
     fontSize: 16,
     marginTop: 8,
   },

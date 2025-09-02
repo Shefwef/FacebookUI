@@ -96,7 +96,6 @@ export default function Home() {
         style={styles.mainScrollView}
         showsVerticalScrollIndicator={false}
       >
-        {/* What's on your mind */}
         <View style={styles.inputBox}>
           <Image source={stories[0].image} style={styles.profilePic} />
           <TextInput
@@ -160,13 +159,13 @@ export default function Home() {
                   <Text style={styles.postMenu}>⋯ <Entypo name="cross" size={24} color="white" /></Text>
                 </TouchableOpacity>
               </View>
-              {/* Post Text */}
+
               {item.text ? <Text style={styles.postText}>{item.text}</Text> : null}
-              {/* Post Image */}
+
               {item.image ? (
                 <Image source={item.image} style={styles.postImage} />
               ) : null}
-              {/* Post Actions */}
+
               <View style={styles.postActions}>
                 <View style={styles.postStatsRow}>
                   <Text style={styles.statsTextLeft}>👍😆❤️ {item.reactions}</Text>
